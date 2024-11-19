@@ -10,6 +10,7 @@ tee "$INSTALL_ELAN_SCRIPT_PATH" > /dev/null \
 #!/bin/sh
 set -e
 sh "$ELAN_SCRIPT_PATH" -y
+source ~/.profile
 EOF
 
 chmod 755 "$INSTALL_ELAN_SCRIPT_PATH"
