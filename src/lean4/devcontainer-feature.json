@@ -4,5 +4,8 @@
   "name": "Lean 4",
   "description": "Installs elan globally.",
   "options": {},
-  "postCreateCommand": "/usr/local/share/install_elan.sh"
+  "postCreateCommand": "/usr/local/share/install_elan.sh",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/common-utils": {}
+  }
 }
