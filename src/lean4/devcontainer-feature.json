@@ -1,6 +1,6 @@
 {
   "id": "lean4",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Lean 4",
   "description": "Installs elan globally.",
   "options": {},
