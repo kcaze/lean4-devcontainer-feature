@@ -6,6 +6,7 @@ tee "$INSTALL_ELAN_SCRIPT_PATH" > /dev/null \
 #!/bin/sh
 set -e
 curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o /usr/local/share/elan-init.sh
+chmod 755 /usr/local/share/elan-init.sh
 sh /usr/local/share/elan-init.sh -y
 EOF
 

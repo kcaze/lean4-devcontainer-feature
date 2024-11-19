@@ -19,7 +19,7 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/kcaze/lean4-devcontainer-feature/lean4:1.0.1": {}
+        "ghcr.io/kcaze/lean4-devcontainer-feature/lean4:1.0.2": {}
     },
     "remoteUser": "node",
     "updateContentCommand": "npm install -g @devcontainers/cli"
